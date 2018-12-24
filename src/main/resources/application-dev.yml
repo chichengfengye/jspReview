@@ -1,0 +1,11 @@
+#server:
+#  servlet:
+#    jsp:
+#      registered: true
+#      class-name: org.springframework.web.servlet.DispatcherServlet
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
